@@ -1,0 +1,137 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(100, 100, 228);
+  width: 300px;
+  height: 150px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.formInputs {
+  margin-bottom: 5px;
+}
+
+.eachInput,
+.formButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.styleButton {
+  background-color: white;
+  height: 25px;
+  width: 75px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(100, 100, 228);
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+
+.statusBar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(172, 172, 250);
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.statusBar input {
+  width: 100%;
+  margin-right: 5px;
+}
+
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.postUser {
+  background-color: rgb(100, 100, 228);
+  height: 25px;
+  align-content: center;
+  color: white;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.postContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 125px;
+  padding: 10px;
+}
+
+.commentBox[type="text"] {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+  width: 25%;
+  border-radius: 20px;
+  border: 1px solid #000000;
+  padding-left: 15px;
+}
+
+.commentContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+  width: 35%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.commentUser {
+  background-color: rgb(100, 100, 228);
+  align-content: center;
+  color: white;
+  padding: 5px;
+}
+
+.commentContent {
+  padding: 10px;
+}
+
+.icon {
+  background: "none";
+  border: "none";
+  cursor: "pointer";
+  padding: 4px;
+  margin-left: 4px;
+  color: #555;
+  font-size: 18px;
+}
+
+.icon:hover {
+  color: #000;
+}
